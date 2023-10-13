@@ -34,6 +34,7 @@ header{
 p{
     text-align: left;
 }
+/*Delete the space between 2 and rem*/
 header{
     margin: 2 rem;
 }
