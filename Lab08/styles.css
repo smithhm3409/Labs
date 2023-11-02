@@ -107,7 +107,7 @@ section>h2{
     height: 100rem;
     top: -25%;
 }
-.section>h2{/*Delete . */
+section>h2{
     padding: 23rem 0;
     font-size: 3rem;
     background-position: center;

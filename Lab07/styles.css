@@ -7,7 +7,7 @@ body{
 header{
     background-image: url(images/trees.png);
     background-size: cover;
-    background-repeat: none;/*Should be no-repeat*/
+    background-repeat: no-repeat;
     background-position: center;
 }
 h1{
@@ -34,7 +34,7 @@ nav>a:hover{
 header{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;/*Justify-content should be center*/
+    justify-content: center;
 }
 nav{
     flex-basis: 100%;
@@ -92,12 +92,12 @@ h2{
     width: 32%;
     margin: .5rem;
 }
-/*missing } here for media query*/
+}
 @media (min-width:1500px){
 .gallery{
     max-height: 120rem;
 }
-/*missing } here for media query*/
+}
 @media (min-width:2300px){
 .gallery{
     max-height: 150rem;
