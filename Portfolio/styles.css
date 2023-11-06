@@ -1,3 +1,14 @@
 body{
     font-family: 'Libre Caslon Text', serif;
+    background-color: #FAF9F8;
+    color: black;
+    margin: 0;
+}
+.holly{
+    background-color: #E8E3DE;
+    margin: 1rem;
+    text-align: right;
+}
+p, h2{
+    font-family: 'Libre Caslon Text', serif;
 }
