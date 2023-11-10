@@ -20,6 +20,7 @@ form>label{
 }
 fieldset{
     font-size: 1.5rem;
+    /*You have a o instead of a 0*/
     margin: 1rem o .25rem;
     border: 3px solid yellowgreen;
     border-radius: .25rem;
