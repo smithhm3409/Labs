@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +11,15 @@
     <div class="parallax">
         <img src="images/grindelwald.jpg" alt="grindelwald">
     </div>
-    <div class="overlay"></div>
+    <div class="overlay toggle-nav"></div>
     <header>
         <div class="hamburger">
+            <onclick="toggleNav()></onclick>
             <hr>
             <hr>
             <hr>
         </div>
-        <nav>
+        <nav class="toggle-nav">
             <a href="about">About</a>
             <a href="gallery">Gallery</a>
             <a href="cLimb">Climb</a>
@@ -43,7 +45,7 @@
         <section class="gallery" id="gallery">
             <h3>Gallery</h3>
             <div>
-                <img src="images/gallery/alpine-panorama.jpg" alt="Pano of alpine mountains">
+                <img class="panorama" src="images/gallery/alpine-panorama.jpg" alt="Pano of alpine mountains">
                 <img src="images/gallery/alpine2.jpg" alt="alpine">
                 <img src="images/gallery/eiger2.jpg" alt="Eiger">
                 <img src="images/gallery/gorge-rock.jpg" alt="Gorge rock">
@@ -68,7 +70,7 @@
             <div>
                 <img src="images/jungfraujoch.jpg" alt="jungfraujoch">
                 <h4>Mittellegi Ridge</h4>
-                <h5>h5 - D (G5) with IV & fixed ropes, 4 to 8 hours from Mittellegi Hut</h5>
+                <h5>D (G5) with IV & fixed ropes, 4 to 8 hours from Mittellegi Hut</h5>
                 <p>The Mittellegi Ridge is probably the most popular route on the Eiger. It is a fantastic steep knife edged ridge offering excellent climbing with little or no objective danger. Yuko Maki with Fritz Amatter, Samuel Brawand and Fritz Steuri made the first ascent of the Mittellegi Ridge on 10 September 1921.</p>
             </div>
         </section>
@@ -85,7 +87,7 @@
         </section>
     </main>
     <footer>
-        <span>"Copyright <script>document.write(new Date().getFullYear());</script>"</span>
+        <span>Copyright <script>document.write(new Date().getFullYear());</script></span>
         <div class="social">
             <a href="https://fb.com"><img src="images/facebook.svg" alt="Facebook"></a>
             <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="Instagram"></a>
