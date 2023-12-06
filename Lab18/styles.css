@@ -29,3 +29,30 @@ img{
     max-width: 100%;
     margin: 1rem;
 }
+h1{
+    animation: swipe 10s ease-in-out 1 ;
+}
+@keyframes swipe{
+    from{
+        left: 0%;
+        transform:scale(0);
+    }
+    to{
+        left: 0%;
+        transform:scale(1);
+    }
+}
+nav a:hover{
+    background-color: #FFFFED;
+    color: #0c2d1c;
+    transition: background-color .5s ease-in-out
+}
+div:after{
+    content: url(images/spotifylogo.png);
+}
+@media (min-width:1000px){
+    div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
