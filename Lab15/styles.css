@@ -58,6 +58,7 @@ footer a{
     width: 4rem;
     margin: .25rem;
 }
+/*Delete space before . */
 section .headline{
     background-image: url(images/cafe.png);
     background-size: cover;
@@ -86,10 +87,12 @@ section .headline{
     display: inline-block;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     cursor: pointer;
+    /*Add comma after ' */
     font-family: 'Bebas Neue' sans-serif;
     border: none;
 }
 button:hover, input:hover[type=submit]{
+    /*Delete third - . That value is for blur which can't be negative*/
     box-shadow: -2px -2px -2px rgba(0, 0, 0, 0.6);
 }
 input[type=submit]{
